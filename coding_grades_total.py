@@ -33,15 +33,15 @@ for q_num in q_nums:
 		print("Q2:", pass_num, "/", 3, "passed | score:", q2_score)
 		total_coding_score += q2_score
 	elif q_num == 3:
-        q3_score = pass_num * 4
+        	q3_score = pass_num * 4
 		print("Q3:", pass_num, "/", 5, "passed | score:", q3_score)
 		total_coding_score += q3_score
 	elif q_num == 4:
-        q4_score = pass_num * 10
+        	q4_score = pass_num * 10
 		print("Q4:", pass_num, "/", 2, "passed | score:", q4_score)
 		total_coding_score += q4_score
-    elif q_num == 5:
-        q5_score = pass_num * 10
+    	elif q_num == 5:
+		q5_score = pass_num * 10
 		print("Q5:", pass_num, "/", 2, "passed | score:", q5_score)
 		total_coding_score += q5_score
 	else:
