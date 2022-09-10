@@ -19,13 +19,14 @@ total_coding_score = 0.0;
 q_nums = [1, 2, 3, 4, 5]
 
 for q_num in q_nums:
-	pass_num = get_ok_num_perq("grades/Q%dres.txt" % q_num)
+	pass_num = get_ok_num_perq("grades/Q%dres_.txt" % q_num)
 
 	if q_num == 1:
 		q1_score = pass_num * 4
 		print("Q1:", pass_num, "/", 10, "passed | score:", q1_score)
 		total_coding_score += q1_score
 	elif q_num == 2:
+		q2_score = 0
 		if pass_num <= 2:
 			q2_score = pass_num * 7
 		elif pass_num == 3:
